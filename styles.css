@@ -76,14 +76,22 @@
     background-color: #c50208;
 }
 
+.nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .nav ul li {
     font-size: 16px;
     text-transform: uppercase;
-    list-style-type: none;
 }
 
 .article {
     background-color: #bccbde;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
 }
 
 .article p {
@@ -97,12 +105,14 @@
     background-color: #ffffff;
     color: black;
     text-align: center;
+    height: 200px;
 }
 
 .card p {
     color: black;
     font-weight: normal;
     font-size: 14px;
+    padding: 5px;
 }
 
 .card .title {
